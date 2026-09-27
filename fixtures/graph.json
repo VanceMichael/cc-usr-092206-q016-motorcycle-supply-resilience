@@ -1,0 +1,5842 @@
+{
+ "domain": "motorcycle-supply-resilience",
+ "version": 1,
+ "sample_id": "graph-001",
+ "note": "合成示例数据，不含真实企业信息",
+ "published_local_ratio": 0.62,
+ "raw_directory": [
+  {
+   "id": "R0001",
+   "name": "苍岚重机有限公司",
+   "kind": "oem",
+   "local": true
+  },
+  {
+   "id": "R0002",
+   "name": "澄湖电驱有限公司",
+   "kind": "oem",
+   "local": true
+  },
+  {
+   "id": "R0003",
+   "name": "朔风越野有限公司",
+   "kind": "oem",
+   "local": true
+  },
+  {
+   "id": "R0004",
+   "name": "岚山精密齿轮有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岚山精密齿轮"
+   ]
+  },
+  {
+   "id": "R0005",
+   "name": "潼溪齿轮有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "潼溪齿轮",
+    "苍力齿轮有限公司"
+   ]
+  },
+  {
+   "id": "R0006",
+   "name": "鹤鸣链轮厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "鹤鸣链轮"
+   ]
+  },
+  {
+   "id": "R0007",
+   "name": "岷江链轮有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岷江链轮",
+    "岷湖链轮有限公司"
+   ]
+  },
+  {
+   "id": "R0008",
+   "name": "澄湖制动科技有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0009",
+   "name": "朔风制动系统有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "朔风制动系统"
+   ]
+  },
+  {
+   "id": "R0010",
+   "name": "锐进控制器有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "锐进控制器",
+    "潼北控制器有限公司"
+   ]
+  },
+  {
+   "id": "R0011",
+   "name": "恒力电子有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "恒力电子"
+   ]
+  },
+  {
+   "id": "R0012",
+   "name": "鑫源仪表有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0013",
+   "name": "骏力平叉有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "骏力平叉",
+    "潼云平叉有限公司"
+   ]
+  },
+  {
+   "id": "R0014",
+   "name": "岱阳轮毂有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岱阳轮毂"
+   ]
+  },
+  {
+   "id": "R0015",
+   "name": "川波热处理有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "川波热处理"
+   ]
+  },
+  {
+   "id": "R0016",
+   "name": "岚湖制动厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0017",
+   "name": "洲岳齿轮厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0018",
+   "name": "澄东电池股份有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "澄东电池",
+    "梧北电池有限公司"
+   ]
+  },
+  {
+   "id": "R0019",
+   "name": "岷锋化油器有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0020",
+   "name": "璧兰铸造有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0021",
+   "name": "恒霖平叉有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "恒霖平叉"
+   ]
+  },
+  {
+   "id": "R0022",
+   "name": "岱湖密封有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岱湖密封"
+   ]
+  },
+  {
+   "id": "R0023",
+   "name": "晟溪链条有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0024",
+   "name": "澄溪弹簧有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "澄溪弹簧",
+    "嶂和弹簧有限公司"
+   ]
+  },
+  {
+   "id": "R0025",
+   "name": "璧岳车架有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0026",
+   "name": "淬源点火有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "淬源点火"
+   ]
+  },
+  {
+   "id": "R0027",
+   "name": "洲嶂消声有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0028",
+   "name": "晟兰电机有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0029",
+   "name": "磐河化油器有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "磐河化油器",
+    "泰云化油器有限公司"
+   ]
+  },
+  {
+   "id": "R0030",
+   "name": "瑞头紧固有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "瑞头紧固",
+    "岱云紧固有限公司"
+   ]
+  },
+  {
+   "id": "R0031",
+   "name": "岚鸣机加有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "岚鸣机加",
+    "浒驰机加股份有限公司"
+   ]
+  },
+  {
+   "id": "R0032",
+   "name": "岱锋平叉有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岱锋平叉",
+    "泰石平叉有限公司"
+   ]
+  },
+  {
+   "id": "R0033",
+   "name": "洄平机加股份有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0034",
+   "name": "岫盛电机有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0035",
+   "name": "梧驰电喷有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0036",
+   "name": "湛平链条有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0037",
+   "name": "漾云脚踏厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0038",
+   "name": "砺兰油箱厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0039",
+   "name": "隆阳电池有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "隆阳电池"
+   ]
+  },
+  {
+   "id": "R0040",
+   "name": "砺山油封有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "砺山油封"
+   ]
+  },
+  {
+   "id": "R0041",
+   "name": "恒东齿轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0042",
+   "name": "骏北脚踏有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0043",
+   "name": "砥泽整流有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0044",
+   "name": "沅北轮毂有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0045",
+   "name": "岷湖锻压有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岷湖锻压"
+   ]
+  },
+  {
+   "id": "R0046",
+   "name": "岭嶂紧固有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岭嶂紧固",
+    "璟岳紧固有限公司"
+   ]
+  },
+  {
+   "id": "R0047",
+   "name": "淬风脚踏有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0048",
+   "name": "湛湖电镀厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0049",
+   "name": "昱嶂坐垫有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0050",
+   "name": "朔驰电镀股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0051",
+   "name": "骏东电控有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "骏东电控",
+    "岫兰电控股份有限公司"
+   ]
+  },
+  {
+   "id": "R0052",
+   "name": "砥阳传感厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "砥阳传感"
+   ]
+  },
+  {
+   "id": "R0053",
+   "name": "岷江密封有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岷江密封"
+   ]
+  },
+  {
+   "id": "R0054",
+   "name": "岚山电喷有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岚山电喷",
+    "朔源电喷有限公司"
+   ]
+  },
+  {
+   "id": "R0055",
+   "name": "苍石制动有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0056",
+   "name": "湛川热处理有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0057",
+   "name": "璟石变速厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0058",
+   "name": "昱霖弹簧有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0059",
+   "name": "砺霖轴承有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0060",
+   "name": "晟驰铸造厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0061",
+   "name": "鑫嶂脚踏有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0062",
+   "name": "洲嶂镜片有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "洲嶂镜片"
+   ]
+  },
+  {
+   "id": "R0063",
+   "name": "岱阳橡塑有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0064",
+   "name": "隆泽传感有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0065",
+   "name": "隆溪传感有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "隆溪传感"
+   ]
+  },
+  {
+   "id": "R0066",
+   "name": "岱川链条厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0067",
+   "name": "沅锋电镀有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "沅锋电镀",
+    "云江电镀有限公司"
+   ]
+  },
+  {
+   "id": "R0068",
+   "name": "沣云油箱有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0069",
+   "name": "漾北电控厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0070",
+   "name": "川河电镀有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "川河电镀"
+   ]
+  },
+  {
+   "id": "R0071",
+   "name": "昱泽电机有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0072",
+   "name": "恒川线缆有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0073",
+   "name": "岷云镜片股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0074",
+   "name": "川兰轮毂有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "川兰轮毂",
+    "瑞兰轮毂有限公司"
+   ]
+  },
+  {
+   "id": "R0075",
+   "name": "嶂平轮胎有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "嶂平轮胎"
+   ]
+  },
+  {
+   "id": "R0076",
+   "name": "湛云离合有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0077",
+   "name": "昱云齿轮有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0078",
+   "name": "浒头灯具有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "浒头灯具"
+   ]
+  },
+  {
+   "id": "R0079",
+   "name": "璟川整流有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0080",
+   "name": "矶源充电有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0081",
+   "name": "川盛平叉有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0082",
+   "name": "磐渚热处理厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "磐渚热处理"
+   ]
+  },
+  {
+   "id": "R0083",
+   "name": "岷云电镀有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0084",
+   "name": "骏波油封有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "骏波油封"
+   ]
+  },
+  {
+   "id": "R0085",
+   "name": "嶂兰离合有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "嶂兰离合",
+    "泰风离合有限公司"
+   ]
+  },
+  {
+   "id": "R0086",
+   "name": "昱河电机有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0087",
+   "name": "澄山减震有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0088",
+   "name": "潼泽电池有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "潼泽电池"
+   ]
+  },
+  {
+   "id": "R0089",
+   "name": "漾风塑件有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "漾风塑件"
+   ]
+  },
+  {
+   "id": "R0090",
+   "name": "泰波凸轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0091",
+   "name": "恒云凸轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0092",
+   "name": "澄盛制动有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "澄盛制动"
+   ]
+  },
+  {
+   "id": "R0093",
+   "name": "矶鸣电喷有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0094",
+   "name": "浒鸣凸轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0095",
+   "name": "梧云消声有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0096",
+   "name": "鹤川化油器有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0097",
+   "name": "洲石塑件有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "洲石塑件"
+   ]
+  },
+  {
+   "id": "R0098",
+   "name": "沅江链轮有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "沅江链轮",
+    "湛北链轮有限公司"
+   ]
+  },
+  {
+   "id": "R0099",
+   "name": "岱嶂整流有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0100",
+   "name": "骏盛链条有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0101",
+   "name": "潼北精密有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "潼北精密"
+   ]
+  },
+  {
+   "id": "R0102",
+   "name": "磐源轮毂有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0103",
+   "name": "锐和机加有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0104",
+   "name": "岚北车架有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "岚北车架",
+    "昱东车架有限公司"
+   ]
+  },
+  {
+   "id": "R0105",
+   "name": "砺云充电有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "砺云充电"
+   ]
+  },
+  {
+   "id": "R0106",
+   "name": "隆云平叉有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "隆云平叉"
+   ]
+  },
+  {
+   "id": "R0107",
+   "name": "锐渚消声股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0108",
+   "name": "砥河五金股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "砥河五金",
+    "鹤渚五金有限公司"
+   ]
+  },
+  {
+   "id": "R0109",
+   "name": "岫泽凸轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0110",
+   "name": "苍溪曲轴有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0111",
+   "name": "淬凤电机有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "淬凤电机",
+    "昱东电机有限公司"
+   ]
+  },
+  {
+   "id": "R0112",
+   "name": "砺岳坐垫股份有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0113",
+   "name": "朔川密封有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "朔川密封"
+   ]
+  },
+  {
+   "id": "R0114",
+   "name": "梧岳油箱有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "梧岳油箱",
+    "淬川油箱有限公司"
+   ]
+  },
+  {
+   "id": "R0115",
+   "name": "汀鸣车架有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0116",
+   "name": "岫锋传感有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岫锋传感",
+    "浒嶂传感有限公司"
+   ]
+  },
+  {
+   "id": "R0117",
+   "name": "晟霖减震有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "晟霖减震"
+   ]
+  },
+  {
+   "id": "R0118",
+   "name": "浒驰轴承厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0119",
+   "name": "璟溪涂装有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0120",
+   "name": "淬嶂镜片有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "淬嶂镜片"
+   ]
+  },
+  {
+   "id": "R0121",
+   "name": "梧泽坐垫厂",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "梧泽坐垫"
+   ]
+  },
+  {
+   "id": "R0122",
+   "name": "洄头锻压有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0123",
+   "name": "淬力减震有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "淬力减震"
+   ]
+  },
+  {
+   "id": "R0124",
+   "name": "岚东机加有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "岚东机加"
+   ]
+  },
+  {
+   "id": "R0125",
+   "name": "泰盛货架有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0126",
+   "name": "淬江锻压有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "淬江锻压"
+   ]
+  },
+  {
+   "id": "R0127",
+   "name": "嶂风减震有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0128",
+   "name": "烽山链轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0129",
+   "name": "沣波轴承有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0130",
+   "name": "川鸣变速有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0131",
+   "name": "骏和传感有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "骏和传感"
+   ]
+  },
+  {
+   "id": "R0132",
+   "name": "泰霖凸轮股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "泰霖凸轮"
+   ]
+  },
+  {
+   "id": "R0133",
+   "name": "苍东化油器有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0134",
+   "name": "砥阳电池有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0135",
+   "name": "砺风灯具有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0136",
+   "name": "昱石电镀有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "昱石电镀"
+   ]
+  },
+  {
+   "id": "R0137",
+   "name": "汀盛电机有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0138",
+   "name": "鹤兰整流股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0139",
+   "name": "浒东传感有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0140",
+   "name": "沅江齿轮厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "沅江齿轮",
+    "砥头齿轮有限公司"
+   ]
+  },
+  {
+   "id": "R0141",
+   "name": "恒山减震有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "恒山减震"
+   ]
+  },
+  {
+   "id": "R0142",
+   "name": "潼头油封厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "潼头油封"
+   ]
+  },
+  {
+   "id": "R0143",
+   "name": "骏霖塑件有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0144",
+   "name": "鹤盛密封有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0145",
+   "name": "岫渚弹簧股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岫渚弹簧",
+    "鹤湖弹簧有限公司"
+   ]
+  },
+  {
+   "id": "R0146",
+   "name": "嶂凤轮毂厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "嶂凤轮毂"
+   ]
+  },
+  {
+   "id": "R0147",
+   "name": "澄渚坐垫有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0148",
+   "name": "漾凤电喷有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "漾凤电喷",
+    "川驰电喷有限公司"
+   ]
+  },
+  {
+   "id": "R0149",
+   "name": "泰兰连杆有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0150",
+   "name": "鑫霖灯具有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0151",
+   "name": "砺兰弹簧有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0152",
+   "name": "苍东减震有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0153",
+   "name": "鑫山精密有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "鑫山精密"
+   ]
+  },
+  {
+   "id": "R0154",
+   "name": "洄力机加有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0155",
+   "name": "鑫川弹簧有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0156",
+   "name": "云霖充电有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "云霖充电",
+    "岱头充电有限公司"
+   ]
+  },
+  {
+   "id": "R0157",
+   "name": "骏东锻压有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0158",
+   "name": "湛嶂点火有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "湛嶂点火",
+    "锐源点火有限公司"
+   ]
+  },
+  {
+   "id": "R0159",
+   "name": "瑞岳轮毂有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0160",
+   "name": "川东链轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0161",
+   "name": "晟岳连杆有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0162",
+   "name": "梧山轴承有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0163",
+   "name": "澄东车架有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0164",
+   "name": "砺锋传感股份有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0165",
+   "name": "云溪线缆有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0166",
+   "name": "恒鸣仪表有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "恒鸣仪表",
+    "湛河仪表有限公司"
+   ]
+  },
+  {
+   "id": "R0167",
+   "name": "泰山充电有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0168",
+   "name": "砺石曲轴有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "砺石曲轴",
+    "岭云曲轴股份有限公司"
+   ]
+  },
+  {
+   "id": "R0169",
+   "name": "隆渚热处理有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "隆渚热处理",
+    "洄泽热处理厂"
+   ]
+  },
+  {
+   "id": "R0170",
+   "name": "璟云轮毂有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0171",
+   "name": "潼头电池有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "潼头电池",
+    "洄石电池股份有限公司"
+   ]
+  },
+  {
+   "id": "R0172",
+   "name": "晟源线束有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0173",
+   "name": "鹤川点火有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0174",
+   "name": "浒川脚踏有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0175",
+   "name": "潼东货架有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0176",
+   "name": "鑫溪连杆有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "鑫溪连杆",
+    "锐云连杆有限公司"
+   ]
+  },
+  {
+   "id": "R0177",
+   "name": "汀云弹簧有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "汀云弹簧",
+    "梧力弹簧有限公司"
+   ]
+  },
+  {
+   "id": "R0178",
+   "name": "锐力铸造有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0179",
+   "name": "矶山活塞有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "矶山活塞",
+    "昱北活塞有限公司"
+   ]
+  },
+  {
+   "id": "R0180",
+   "name": "湛河油封有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0181",
+   "name": "洄东塑件有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0182",
+   "name": "泰兰车架有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0183",
+   "name": "湛源曲轴有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0184",
+   "name": "隆波整流有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "隆波整流"
+   ]
+  },
+  {
+   "id": "R0185",
+   "name": "砺岳电镀厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "砺岳电镀"
+   ]
+  },
+  {
+   "id": "R0186",
+   "name": "瑞湖精密有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "瑞湖精密",
+    "恒北精密有限公司"
+   ]
+  },
+  {
+   "id": "R0187",
+   "name": "淬霖充电有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0188",
+   "name": "骏源平叉有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0189",
+   "name": "岭力线缆有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岭力线缆"
+   ]
+  },
+  {
+   "id": "R0190",
+   "name": "川鸣化油器有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0191",
+   "name": "恒湖五金有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0192",
+   "name": "潼嶂活塞有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0193",
+   "name": "淬波五金有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "淬波五金"
+   ]
+  },
+  {
+   "id": "R0194",
+   "name": "澄渚活塞有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "澄渚活塞",
+    "潼泽活塞有限公司"
+   ]
+  },
+  {
+   "id": "R0195",
+   "name": "锐波轮毂有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "锐波轮毂",
+    "骏江轮毂股份有限公司"
+   ]
+  },
+  {
+   "id": "R0196",
+   "name": "朔东仪表有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "朔东仪表"
+   ]
+  },
+  {
+   "id": "R0197",
+   "name": "矶平铸造有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0198",
+   "name": "璧江消声有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0199",
+   "name": "骏泽消声有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "骏泽消声",
+    "苍头消声有限公司"
+   ]
+  },
+  {
+   "id": "R0200",
+   "name": "璧石整流有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "璧石整流"
+   ]
+  },
+  {
+   "id": "R0201",
+   "name": "泰溪油封股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "泰溪油封"
+   ]
+  },
+  {
+   "id": "R0202",
+   "name": "砺泽紧固股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0203",
+   "name": "昱盛仪表股份有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "昱盛仪表",
+    "沅湖仪表有限公司"
+   ]
+  },
+  {
+   "id": "R0204",
+   "name": "潼锋轴承有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "潼锋轴承",
+    "洲鸣轴承有限公司"
+   ]
+  },
+  {
+   "id": "R0205",
+   "name": "洄川灯具厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0206",
+   "name": "沣阳线缆有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0207",
+   "name": "鑫平橡塑厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "鑫平橡塑",
+    "璟石橡塑有限公司"
+   ]
+  },
+  {
+   "id": "R0208",
+   "name": "隆鸣凸轮有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0209",
+   "name": "泰平橡塑股份有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0210",
+   "name": "川溪点火有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0211",
+   "name": "鑫河涂装有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "鑫河涂装"
+   ]
+  },
+  {
+   "id": "R0212",
+   "name": "淬岳电喷有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "淬岳电喷",
+    "岱头电喷有限公司"
+   ]
+  },
+  {
+   "id": "R0213",
+   "name": "汀锋坐垫有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0214",
+   "name": "澄江链轮股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "澄江链轮"
+   ]
+  },
+  {
+   "id": "R0215",
+   "name": "苍凤油箱有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0216",
+   "name": "苍锋灯具有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0217",
+   "name": "云湖化油器有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0218",
+   "name": "昱霖电机有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0219",
+   "name": "岭北轮毂有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "岭北轮毂",
+    "苍风轮毂有限公司"
+   ]
+  },
+  {
+   "id": "R0220",
+   "name": "恒盛制动厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "恒盛制动"
+   ]
+  },
+  {
+   "id": "R0221",
+   "name": "沣河紧固股份有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "沣河紧固"
+   ]
+  },
+  {
+   "id": "R0222",
+   "name": "锐溪镜片厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "锐溪镜片"
+   ]
+  },
+  {
+   "id": "R0223",
+   "name": "恒平锻压有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0224",
+   "name": "朔风铸造股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0225",
+   "name": "沣岳离合有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0226",
+   "name": "昱河塑件有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "昱河塑件"
+   ]
+  },
+  {
+   "id": "R0227",
+   "name": "沣鸣热处理厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "沣鸣热处理"
+   ]
+  },
+  {
+   "id": "R0228",
+   "name": "澄平消声有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "澄平消声"
+   ]
+  },
+  {
+   "id": "R0229",
+   "name": "砺风整流有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0230",
+   "name": "岱北镜片厂",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "岱北镜片"
+   ]
+  },
+  {
+   "id": "R0231",
+   "name": "汀嶂锻压有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "汀嶂锻压"
+   ]
+  },
+  {
+   "id": "R0232",
+   "name": "浒山铸造有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0233",
+   "name": "矶驰锻压厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0234",
+   "name": "瑞波油箱有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "瑞波油箱",
+    "泰头油箱厂"
+   ]
+  },
+  {
+   "id": "R0235",
+   "name": "嶂江轮毂有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0236",
+   "name": "烽驰轮毂有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "烽驰轮毂",
+    "烽阳轮毂有限公司"
+   ]
+  },
+  {
+   "id": "R0237",
+   "name": "骏驰制动有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "骏驰制动"
+   ]
+  },
+  {
+   "id": "R0238",
+   "name": "浒风线束有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "浒风线束"
+   ]
+  },
+  {
+   "id": "R0239",
+   "name": "恒石锻压厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0240",
+   "name": "恒凤凸轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0241",
+   "name": "川湖镜片有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0242",
+   "name": "岫平油箱有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0243",
+   "name": "云和精密有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0244",
+   "name": "沣渚电池有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0245",
+   "name": "梧嶂车架有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0246",
+   "name": "洲驰离合厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "洲驰离合",
+    "砺石离合股份有限公司"
+   ]
+  },
+  {
+   "id": "R0247",
+   "name": "鑫渚充电有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0248",
+   "name": "鹤波减震股份有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0249",
+   "name": "岫石平叉股份有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "岫石平叉"
+   ]
+  },
+  {
+   "id": "R0250",
+   "name": "砺湖消声有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0251",
+   "name": "苍霖轮毂有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0252",
+   "name": "苍山脚踏有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0253",
+   "name": "鹤兰货架股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "鹤兰货架",
+    "浒江货架有限公司"
+   ]
+  },
+  {
+   "id": "R0254",
+   "name": "澄泽轮毂有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0255",
+   "name": "沅山消声有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0256",
+   "name": "潼波电喷有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "潼波电喷",
+    "嶂风电喷有限公司"
+   ]
+  },
+  {
+   "id": "R0257",
+   "name": "澄河仪表有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0258",
+   "name": "湛岳电喷有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0259",
+   "name": "昱北轴承有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "昱北轴承",
+    "云江轴承厂"
+   ]
+  },
+  {
+   "id": "R0260",
+   "name": "川岳轮毂有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0261",
+   "name": "瑞和密封厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0262",
+   "name": "淬石平叉有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0263",
+   "name": "锐盛紧固厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0264",
+   "name": "鑫东货架有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0265",
+   "name": "漾石五金有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0266",
+   "name": "岭嶂制动有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0267",
+   "name": "湛头充电有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "湛头充电"
+   ]
+  },
+  {
+   "id": "R0268",
+   "name": "洲兰线束股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "洲兰线束"
+   ]
+  },
+  {
+   "id": "R0269",
+   "name": "矶石橡塑厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0270",
+   "name": "汀平塑件有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "汀平塑件"
+   ]
+  },
+  {
+   "id": "R0271",
+   "name": "澄渚充电有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0272",
+   "name": "岭霖热处理有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0273",
+   "name": "朔岳油箱有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0274",
+   "name": "磐霖制动有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0275",
+   "name": "沣北电控有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0276",
+   "name": "云平坐垫有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "云平坐垫",
+    "烽鸣坐垫有限公司"
+   ]
+  },
+  {
+   "id": "R0277",
+   "name": "磐和传感有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0278",
+   "name": "汀溪轮毂有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "汀溪轮毂"
+   ]
+  },
+  {
+   "id": "R0279",
+   "name": "鑫河油箱有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0280",
+   "name": "洲力橡塑股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "洲力橡塑"
+   ]
+  },
+  {
+   "id": "R0281",
+   "name": "璧锋橡塑有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0282",
+   "name": "鑫波五金有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0283",
+   "name": "砥和传感有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0284",
+   "name": "鹤北链轮有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "鹤北链轮"
+   ]
+  },
+  {
+   "id": "R0285",
+   "name": "隆盛链条有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "隆盛链条",
+    "朔霖链条有限公司"
+   ]
+  },
+  {
+   "id": "R0286",
+   "name": "锐泽轮胎有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0287",
+   "name": "川源橡塑有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0288",
+   "name": "淬湖坐垫有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "淬湖坐垫"
+   ]
+  },
+  {
+   "id": "R0289",
+   "name": "鹤北灯具有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "鹤北灯具"
+   ]
+  },
+  {
+   "id": "R0290",
+   "name": "嶂川制动有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0291",
+   "name": "烽泽轴承有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "烽泽轴承",
+    "淬泽轴承股份有限公司"
+   ]
+  },
+  {
+   "id": "R0292",
+   "name": "烽渚制动有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0293",
+   "name": "瑞泽油箱厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0294",
+   "name": "岚平减震股份有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0295",
+   "name": "锐北密封厂",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "锐北密封",
+    "瑞力密封有限公司"
+   ]
+  },
+  {
+   "id": "R0296",
+   "name": "岷渚精密股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0297",
+   "name": "砥湖机加有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0298",
+   "name": "隆云电控有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0299",
+   "name": "磐和轮胎有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0300",
+   "name": "瑞河电控股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0301",
+   "name": "昱霖轮毂股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "昱霖轮毂",
+    "锐石轮毂有限公司"
+   ]
+  },
+  {
+   "id": "R0302",
+   "name": "沅江连杆股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "沅江连杆"
+   ]
+  },
+  {
+   "id": "R0303",
+   "name": "矶兰点火有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0304",
+   "name": "苍兰凸轮有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "苍兰凸轮"
+   ]
+  },
+  {
+   "id": "R0305",
+   "name": "淬嶂机加有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0306",
+   "name": "昱鸣曲轴有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0307",
+   "name": "锐盛制动有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0308",
+   "name": "洲平整流厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0309",
+   "name": "湛石车架厂",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0310",
+   "name": "岫驰整流有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0311",
+   "name": "砥鸣链轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0312",
+   "name": "洄川弹簧有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0313",
+   "name": "泰阳弹簧有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0314",
+   "name": "漾石充电股份有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0315",
+   "name": "岚平轮胎厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0316",
+   "name": "晟风整流有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0317",
+   "name": "梧源镜片有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "梧源镜片"
+   ]
+  },
+  {
+   "id": "R0318",
+   "name": "晟兰减震有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0319",
+   "name": "璟湖橡塑有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "璟湖橡塑"
+   ]
+  },
+  {
+   "id": "R0320",
+   "name": "沣湖电控有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "沣湖电控"
+   ]
+  },
+  {
+   "id": "R0321",
+   "name": "岫风电池有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岫风电池",
+    "泰力电池厂"
+   ]
+  },
+  {
+   "id": "R0322",
+   "name": "湛泽热处理股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0323",
+   "name": "恒凤减震有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0324",
+   "name": "岭兰消声有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岭兰消声"
+   ]
+  },
+  {
+   "id": "R0325",
+   "name": "沅头电机有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0326",
+   "name": "岱锋仪表股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岱锋仪表",
+    "湛云仪表有限公司"
+   ]
+  },
+  {
+   "id": "R0327",
+   "name": "漾嶂传感有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0328",
+   "name": "烽平灯具有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0329",
+   "name": "浒鸣轴承有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0330",
+   "name": "岱川链轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0331",
+   "name": "瑞和电喷股份有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0332",
+   "name": "澄江车架有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0333",
+   "name": "云和铸造有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "云和铸造",
+    "洲锋铸造有限公司"
+   ]
+  },
+  {
+   "id": "R0334",
+   "name": "矶岳油箱有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0335",
+   "name": "璧波塑件有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "璧波塑件"
+   ]
+  },
+  {
+   "id": "R0336",
+   "name": "洲川链轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0337",
+   "name": "苍驰链条有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0338",
+   "name": "鑫河机加有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0339",
+   "name": "璟石制动有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "璟石制动"
+   ]
+  },
+  {
+   "id": "R0340",
+   "name": "岭和五金有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0341",
+   "name": "汀溪变速有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "汀溪变速"
+   ]
+  },
+  {
+   "id": "R0342",
+   "name": "朔嶂五金有限公司",
+   "kind": "parts",
+   "local": false,
+   "aliases": [
+    "朔嶂五金"
+   ]
+  },
+  {
+   "id": "R0343",
+   "name": "璟川脚踏有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "璟川脚踏",
+    "晟头脚踏股份有限公司"
+   ]
+  },
+  {
+   "id": "R0344",
+   "name": "泰川灯具有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "泰川灯具",
+    "浒力灯具厂"
+   ]
+  },
+  {
+   "id": "R0345",
+   "name": "苍渚传感有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0346",
+   "name": "汀盛凸轮有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0347",
+   "name": "晟岳密封厂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0348",
+   "name": "汀嶂线缆有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0349",
+   "name": "淬波凸轮有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0350",
+   "name": "湛渚橡塑有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0351",
+   "name": "鹤盛电池有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0352",
+   "name": "岱渚热处理有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "岱渚热处理"
+   ]
+  },
+  {
+   "id": "R0353",
+   "name": "烽和电喷有限公司",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0354",
+   "name": "锐湖脚踏股份有限公司",
+   "kind": "parts",
+   "local": false
+  },
+  {
+   "id": "R0355",
+   "name": "昱波车架有限公司",
+   "kind": "parts",
+   "local": true,
+   "aliases": [
+    "昱波车架",
+    "云平车架有限公司"
+   ]
+  },
+  {
+   "id": "R0356",
+   "name": "璟溪涂装",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0357",
+   "name": "淬石平叉",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0358",
+   "name": "淬霖充电",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0359",
+   "name": "隆云电控",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0360",
+   "name": "砥鸣链轮",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0361",
+   "name": "汀鸣车架",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0362",
+   "name": "磐和轮胎",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0363",
+   "name": "锐盛紧固",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0364",
+   "name": "砺霖轴承",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0365",
+   "name": "磐源轮毂",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0366",
+   "name": "沣渚电池",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0367",
+   "name": "鑫嶂脚踏",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0368",
+   "name": "湛泽热处理",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0369",
+   "name": "澄东车架",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0370",
+   "name": "骏盛链条",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0371",
+   "name": "鑫源仪表",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0372",
+   "name": "烽渚制动",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0373",
+   "name": "矶平铸造",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0374",
+   "name": "骏东锻压",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0375",
+   "name": "洄川灯具",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0376",
+   "name": "璧岳车架",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0377",
+   "name": "磐霖制动",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0378",
+   "name": "朔风铸造",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0379",
+   "name": "苍锋灯具",
+   "kind": "parts",
+   "local": true
+  },
+  {
+   "id": "R0380",
+   "name": "汀波油箱有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0215"
+  },
+  {
+   "id": "R0381",
+   "name": "澄驰减震有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0152"
+  },
+  {
+   "id": "R0382",
+   "name": "泰风充电厂",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0247"
+  },
+  {
+   "id": "R0383",
+   "name": "矶和凸轮有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0091"
+  },
+  {
+   "id": "R0384",
+   "name": "苍江精密有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0243"
+  },
+  {
+   "id": "R0385",
+   "name": "烽力电机有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0028"
+  },
+  {
+   "id": "R0386",
+   "name": "锐岳轮胎有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0315"
+  },
+  {
+   "id": "R0387",
+   "name": "浒风制动有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0266"
+  },
+  {
+   "id": "R0388",
+   "name": "岱驰机加有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0154"
+  },
+  {
+   "id": "R0389",
+   "name": "恒头整流有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0043"
+  },
+  {
+   "id": "R0390",
+   "name": "川驰点火有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0173"
+  },
+  {
+   "id": "R0391",
+   "name": "烽霖橡塑有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0063"
+  },
+  {
+   "id": "R0392",
+   "name": "嶂山制动股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0307"
+  },
+  {
+   "id": "R0393",
+   "name": "璟头电喷有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0331"
+  },
+  {
+   "id": "R0394",
+   "name": "湛嶂充电有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0080"
+  },
+  {
+   "id": "R0395",
+   "name": "岷和凸轮股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0240"
+  },
+  {
+   "id": "R0396",
+   "name": "恒石传感有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0139"
+  },
+  {
+   "id": "R0397",
+   "name": "岷泽弹簧有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0058"
+  },
+  {
+   "id": "R0398",
+   "name": "岱泽线缆有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0165"
+  },
+  {
+   "id": "R0399",
+   "name": "岷云链轮有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0336"
+  },
+  {
+   "id": "R0400",
+   "name": "汀鸣传感有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0277"
+  },
+  {
+   "id": "R0401",
+   "name": "朔头铸造股份有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0020"
+  },
+  {
+   "id": "R0402",
+   "name": "浒泽消声有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0250"
+  },
+  {
+   "id": "R0403",
+   "name": "岷波轮毂有限公司",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0260"
+  },
+  {
+   "id": "R0404",
+   "name": "岚山齿轮厂",
+   "kind": "parts",
+   "local": true,
+   "same_as": "R0004"
+  }
+ ],
+ "model_versions": [
+  {
+   "code": "F150",
+   "name": "苍岚F150风冷版",
+   "kind": "fuel",
+   "oem": "苍岚重机有限公司",
+   "open_orders": 300
+  },
+  {
+   "code": "F250",
+   "name": "苍岚F250水冷版",
+   "kind": "fuel",
+   "oem": "苍岚重机有限公司",
+   "open_orders": 700
+  },
+  {
+   "code": "E3000",
+   "name": "澄湖E3000城市版",
+   "kind": "ev",
+   "oem": "澄湖电驱有限公司",
+   "open_orders": 600
+  },
+  {
+   "code": "E5000",
+   "name": "澄湖E5000性能版",
+   "kind": "ev",
+   "oem": "澄湖电驱有限公司",
+   "open_orders": 450
+  },
+  {
+   "code": "X250",
+   "name": "朔风X250林道版",
+   "kind": "offroad",
+   "oem": "朔风越野有限公司",
+   "open_orders": 400
+  },
+  {
+   "code": "X450",
+   "name": "朔风X450拉力版",
+   "kind": "offroad",
+   "oem": "朔风越野有限公司",
+   "open_orders": 500
+  }
+ ],
+ "parts": [
+  {
+   "code": "P01",
+   "name": "变速齿轮",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P02",
+   "name": "主轴齿轮",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P03",
+   "name": "驱动链条",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P04",
+   "name": "从动链轮",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P05",
+   "name": "离合器总成",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P06",
+   "name": "传动皮带",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P07",
+   "name": "曲轴",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P08",
+   "name": "活塞组件",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P09",
+   "name": "连杆",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P10",
+   "name": "凸轮轴",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P11",
+   "name": "化油器",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P12",
+   "name": "电喷节气门",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P13",
+   "name": "驱动电机",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P14",
+   "name": "电机控制器",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P15",
+   "name": "动力电池包",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P16",
+   "name": "车载充电器",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P17",
+   "name": "车架总成",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P18",
+   "name": "后平叉",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P19",
+   "name": "方向柱",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P20",
+   "name": "前减震器",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P21",
+   "name": "后减震器",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P22",
+   "name": "制动盘",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P23",
+   "name": "制动卡钳",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P24",
+   "name": "制动油管",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P25",
+   "name": "ABS模块",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P26",
+   "name": "全车线束",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P27",
+   "name": "组合仪表",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P28",
+   "name": "前大灯",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P29",
+   "name": "尾灯",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P30",
+   "name": "速度传感器",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P31",
+   "name": "点火线圈",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P32",
+   "name": "整流器",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P33",
+   "name": "前轮毂",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P34",
+   "name": "后轮毂",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P35",
+   "name": "轮胎",
+   "units_per_unit": 2
+  },
+  {
+   "code": "P36",
+   "name": "轴承套件",
+   "units_per_unit": 2
+  },
+  {
+   "code": "P37",
+   "name": "覆盖塑件",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P38",
+   "name": "坐垫",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P39",
+   "name": "燃油箱",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P40",
+   "name": "消声器",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P41",
+   "name": "后视镜",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P42",
+   "name": "脚踏组件",
+   "units_per_unit": 1
+  },
+  {
+   "code": "P43",
+   "name": "货架",
+   "units_per_unit": 1
+  }
+ ],
+ "edges": [
+  {
+   "id": "E-F250-GEAR-1",
+   "model_code": "F250",
+   "part_code": "P01",
+   "supplier": "岚山精密齿轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E-F250-GEAR-1",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 800,
+   "shared_equipment": [
+    "EQ-HEAT共享热处理炉"
+   ],
+   "lead_time_days": 21,
+   "unit_price": 35.0,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-X450-GEAR-1",
+   "model_code": "X450",
+   "part_code": "P01",
+   "supplier": "岚山精密齿轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E-X450-GEAR-1",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 600,
+   "shared_equipment": [
+    "EQ-HEAT共享热处理炉"
+   ],
+   "lead_time_days": 24,
+   "unit_price": 38.0,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-F250-GEAR-2",
+   "model_code": "F250",
+   "part_code": "P01",
+   "supplier": "潼溪齿轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E-F250-GEAR-2",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 500,
+   "shared_equipment": [],
+   "lead_time_days": 18,
+   "unit_price": 36.5,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-X450-GEAR-2",
+   "model_code": "X450",
+   "part_code": "P01",
+   "supplier": "潼溪齿轮有限公司",
+   "status": "trial",
+   "certification": "CERT-E-X450-GEAR-2",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 600,
+   "shared_equipment": [],
+   "lead_time_days": 20,
+   "unit_price": 37.0,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-F150-SPROCKET-1",
+   "model_code": "F150",
+   "part_code": "P04",
+   "supplier": "鹤鸣链轮厂",
+   "status": "mass",
+   "certification": "CERT-E-F150-SPROCKET-1",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 400,
+   "shared_equipment": [
+    "EQ-HEAT共享热处理炉"
+   ],
+   "lead_time_days": 14,
+   "unit_price": 38.98,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-F150-SPROCKET-2",
+   "model_code": "F150",
+   "part_code": "P04",
+   "supplier": "岷江链轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E-F150-SPROCKET-2",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 400,
+   "shared_equipment": [],
+   "lead_time_days": 16,
+   "unit_price": 83.4,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-X250-CALIPER-1",
+   "model_code": "X250",
+   "part_code": "P23",
+   "supplier": "澄湖制动科技有限公司",
+   "status": "mass",
+   "certification": "CERT-E-X250-CALIPER-1",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 500,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 224.75,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-X250-CALIPER-2",
+   "model_code": "X250",
+   "part_code": "P23",
+   "supplier": "朔风制动系统有限公司",
+   "status": "mass",
+   "certification": "CERT-E-X250-CALIPER-2",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 300,
+   "shared_equipment": [],
+   "lead_time_days": 30,
+   "unit_price": 242.55,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-E5000-CTRL-1",
+   "model_code": "E5000",
+   "part_code": "P14",
+   "supplier": "锐进控制器有限公司",
+   "status": "mass",
+   "certification": "CERT-E-E5000-CTRL-1",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 500,
+   "shared_equipment": [],
+   "lead_time_days": 25,
+   "unit_price": 120.0,
+   "price_valid_until": "2026-09-25",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-E5000-CTRL-2",
+   "model_code": "E5000",
+   "part_code": "P14",
+   "supplier": "恒力电子有限公司",
+   "status": "mass",
+   "certification": "CERT-E-E5000-CTRL-2",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 300,
+   "shared_equipment": [],
+   "lead_time_days": 22,
+   "unit_price": 118.0,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": false
+  },
+  {
+   "id": "E-E5000-INSTR-1",
+   "model_code": "E5000",
+   "part_code": "P27",
+   "supplier": "鑫源仪表有限公司",
+   "status": "mass",
+   "certification": "CERT-E-E5000-INSTR-1",
+   "cert_valid_from": "2026-10-01",
+   "monthly_capacity": 500,
+   "shared_equipment": [],
+   "lead_time_days": 15,
+   "unit_price": 132.17,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E-E5000-INSTR-2",
+   "model_code": "E5000",
+   "part_code": "P27",
+   "supplier": "沣波轴承有限公司",
+   "status": "mass",
+   "certification": "CERT-E-E5000-INSTR-2",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 500,
+   "shared_equipment": [],
+   "lead_time_days": 28,
+   "unit_price": 284.33,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1001",
+   "model_code": "F150",
+   "part_code": "P02",
+   "supplier": "云和精密有限公司",
+   "status": "mass",
+   "certification": "CERT-E1001",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 479,
+   "shared_equipment": [],
+   "lead_time_days": 42,
+   "unit_price": 58.37,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1002",
+   "model_code": "F150",
+   "part_code": "P03",
+   "supplier": "朔岳油箱有限公司",
+   "status": "mass",
+   "certification": "CERT-E1002",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 415,
+   "shared_equipment": [],
+   "lead_time_days": 34,
+   "unit_price": 46.31,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1003",
+   "model_code": "F150",
+   "part_code": "P07",
+   "supplier": "泰兰连杆有限公司",
+   "status": "mass",
+   "certification": "CERT-E1003",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 461,
+   "shared_equipment": [],
+   "lead_time_days": 30,
+   "unit_price": 151.88,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1004",
+   "model_code": "F150",
+   "part_code": "P08",
+   "supplier": "朔川密封有限公司",
+   "status": "mass",
+   "certification": "CERT-E1004",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 448,
+   "shared_equipment": [],
+   "lead_time_days": 29,
+   "unit_price": 20.11,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1005",
+   "model_code": "F150",
+   "part_code": "P12",
+   "supplier": "砺兰油箱厂",
+   "status": "mass",
+   "certification": "CERT-E1005",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 461,
+   "shared_equipment": [],
+   "lead_time_days": 17,
+   "unit_price": 293.28,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1006",
+   "model_code": "F150",
+   "part_code": "P18",
+   "supplier": "云和铸造有限公司",
+   "status": "mass",
+   "certification": "CERT-E1006",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 482,
+   "shared_equipment": [],
+   "lead_time_days": 29,
+   "unit_price": 37.73,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1007",
+   "model_code": "F150",
+   "part_code": "P19",
+   "supplier": "磐源轮毂有限公司",
+   "status": "mass",
+   "certification": "CERT-E1007",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 397,
+   "shared_equipment": [],
+   "lead_time_days": 41,
+   "unit_price": 205.11,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1008",
+   "model_code": "F150",
+   "part_code": "P20",
+   "supplier": "湛泽热处理股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1008",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 411,
+   "shared_equipment": [],
+   "lead_time_days": 13,
+   "unit_price": 238.66,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1009",
+   "model_code": "F150",
+   "part_code": "P21",
+   "supplier": "锐泽轮胎有限公司",
+   "status": "mass",
+   "certification": "CERT-E1009",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 452,
+   "shared_equipment": [],
+   "lead_time_days": 8,
+   "unit_price": 219.19,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1010",
+   "model_code": "F150",
+   "part_code": "P22",
+   "supplier": "岫风电池有限公司",
+   "status": "mass",
+   "certification": "CERT-E1010",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 451,
+   "shared_equipment": [],
+   "lead_time_days": 19,
+   "unit_price": 59.82,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1011",
+   "model_code": "F150",
+   "part_code": "P26",
+   "supplier": "矶石橡塑厂",
+   "status": "mass",
+   "certification": "CERT-E1011",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 434,
+   "shared_equipment": [],
+   "lead_time_days": 16,
+   "unit_price": 109.88,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1012",
+   "model_code": "F150",
+   "part_code": "P27",
+   "supplier": "汀云弹簧有限公司",
+   "status": "mass",
+   "certification": "CERT-E1012",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 432,
+   "shared_equipment": [],
+   "lead_time_days": 45,
+   "unit_price": 171.38,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1013",
+   "model_code": "F150",
+   "part_code": "P28",
+   "supplier": "隆阳电池有限公司",
+   "status": "mass",
+   "certification": "CERT-E1013",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 472,
+   "shared_equipment": [],
+   "lead_time_days": 18,
+   "unit_price": 259.04,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1014",
+   "model_code": "F150",
+   "part_code": "P31",
+   "supplier": "洲嶂镜片有限公司",
+   "status": "mass",
+   "certification": "CERT-E1014",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 392,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 258.45,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1015",
+   "model_code": "F150",
+   "part_code": "P31",
+   "supplier": "鑫霖灯具有限公司",
+   "status": "mass",
+   "certification": "CERT-E1015",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 436,
+   "shared_equipment": [],
+   "lead_time_days": 43,
+   "unit_price": 232.54,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1016",
+   "model_code": "F150",
+   "part_code": "P32",
+   "supplier": "洲石塑件有限公司",
+   "status": "mass",
+   "certification": "CERT-E1016",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 399,
+   "shared_equipment": [],
+   "lead_time_days": 10,
+   "unit_price": 245.41,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1017",
+   "model_code": "F150",
+   "part_code": "P33",
+   "supplier": "瑞和密封厂",
+   "status": "mass",
+   "certification": "CERT-E1017",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 488,
+   "shared_equipment": [],
+   "lead_time_days": 22,
+   "unit_price": 224.64,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1018",
+   "model_code": "F150",
+   "part_code": "P34",
+   "supplier": "岭和五金有限公司",
+   "status": "mass",
+   "certification": "CERT-E1018",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 473,
+   "shared_equipment": [],
+   "lead_time_days": 38,
+   "unit_price": 191.55,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1019",
+   "model_code": "F150",
+   "part_code": "P37",
+   "supplier": "苍溪曲轴有限公司",
+   "status": "mass",
+   "certification": "CERT-E1019",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 436,
+   "shared_equipment": [],
+   "lead_time_days": 41,
+   "unit_price": 251.84,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1020",
+   "model_code": "F150",
+   "part_code": "P39",
+   "supplier": "泰川灯具有限公司",
+   "status": "mass",
+   "certification": "CERT-E1020",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 405,
+   "shared_equipment": [],
+   "lead_time_days": 27,
+   "unit_price": 290.48,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1021",
+   "model_code": "F150",
+   "part_code": "P40",
+   "supplier": "恒云凸轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1021",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 465,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 7.99,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1022",
+   "model_code": "F150",
+   "part_code": "P41",
+   "supplier": "瑞河电控股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1022",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 450,
+   "shared_equipment": [],
+   "lead_time_days": 14,
+   "unit_price": 97.43,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1023",
+   "model_code": "F250",
+   "part_code": "P02",
+   "supplier": "湛头充电有限公司",
+   "status": "mass",
+   "certification": "CERT-E1023",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 960,
+   "shared_equipment": [],
+   "lead_time_days": 40,
+   "unit_price": 78.03,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1024",
+   "model_code": "F250",
+   "part_code": "P04",
+   "supplier": "烽渚制动有限公司",
+   "status": "mass",
+   "certification": "CERT-E1024",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1000,
+   "shared_equipment": [],
+   "lead_time_days": 13,
+   "unit_price": 253.9,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1025",
+   "model_code": "F250",
+   "part_code": "P05",
+   "supplier": "苍兰凸轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1025",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 972,
+   "shared_equipment": [],
+   "lead_time_days": 36,
+   "unit_price": 237.82,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1026",
+   "model_code": "F250",
+   "part_code": "P07",
+   "supplier": "晟源线束有限公司",
+   "status": "mass",
+   "certification": "CERT-E1026",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 962,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 261.05,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1027",
+   "model_code": "F250",
+   "part_code": "P09",
+   "supplier": "岱川链轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1027",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 975,
+   "shared_equipment": [],
+   "lead_time_days": 13,
+   "unit_price": 277.46,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1028",
+   "model_code": "F250",
+   "part_code": "P10",
+   "supplier": "岚鸣机加有限公司",
+   "status": "mass",
+   "certification": "CERT-E1028",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 916,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 190.47,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1029",
+   "model_code": "F250",
+   "part_code": "P11",
+   "supplier": "湛平链条有限公司",
+   "status": "mass",
+   "certification": "CERT-E1029",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 947,
+   "shared_equipment": [],
+   "lead_time_days": 27,
+   "unit_price": 91.33,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1030",
+   "model_code": "F250",
+   "part_code": "P12",
+   "supplier": "晟霖减震有限公司",
+   "status": "mass",
+   "certification": "CERT-E1030",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 920,
+   "shared_equipment": [],
+   "lead_time_days": 8,
+   "unit_price": 282.35,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1031",
+   "model_code": "F250",
+   "part_code": "P18",
+   "supplier": "岚湖制动厂",
+   "status": "mass",
+   "certification": "CERT-E1031",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 968,
+   "shared_equipment": [],
+   "lead_time_days": 13,
+   "unit_price": 209.19,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1032",
+   "model_code": "F250",
+   "part_code": "P19",
+   "supplier": "沣云油箱有限公司",
+   "status": "mass",
+   "certification": "CERT-E1032",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 984,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 156.75,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1033",
+   "model_code": "F250",
+   "part_code": "P21",
+   "supplier": "湛湖电镀厂",
+   "status": "mass",
+   "certification": "CERT-E1033",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 911,
+   "shared_equipment": [],
+   "lead_time_days": 11,
+   "unit_price": 282.36,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1034",
+   "model_code": "F250",
+   "part_code": "P26",
+   "supplier": "岱阳橡塑有限公司",
+   "status": "mass",
+   "certification": "CERT-E1034",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 995,
+   "shared_equipment": [],
+   "lead_time_days": 20,
+   "unit_price": 91.86,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1035",
+   "model_code": "F250",
+   "part_code": "P27",
+   "supplier": "砺风灯具有限公司",
+   "status": "mass",
+   "certification": "CERT-E1035",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 977,
+   "shared_equipment": [],
+   "lead_time_days": 18,
+   "unit_price": 224.2,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1036",
+   "model_code": "F250",
+   "part_code": "P29",
+   "supplier": "鑫河机加有限公司",
+   "status": "mass",
+   "certification": "CERT-E1036",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 937,
+   "shared_equipment": [],
+   "lead_time_days": 19,
+   "unit_price": 128.69,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1037",
+   "model_code": "F250",
+   "part_code": "P29",
+   "supplier": "泰溪油封股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1037",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 959,
+   "shared_equipment": [],
+   "lead_time_days": 29,
+   "unit_price": 113.27,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1038",
+   "model_code": "F250",
+   "part_code": "P31",
+   "supplier": "澄东电池股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1038",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1002,
+   "shared_equipment": [],
+   "lead_time_days": 43,
+   "unit_price": 110.64,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1039",
+   "model_code": "F250",
+   "part_code": "P31",
+   "supplier": "恒湖五金有限公司",
+   "status": "mass",
+   "certification": "CERT-E1039",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 937,
+   "shared_equipment": [],
+   "lead_time_days": 14,
+   "unit_price": 298.81,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1040",
+   "model_code": "F250",
+   "part_code": "P32",
+   "supplier": "岷渚精密股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1040",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 933,
+   "shared_equipment": [],
+   "lead_time_days": 19,
+   "unit_price": 258.21,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1041",
+   "model_code": "F250",
+   "part_code": "P33",
+   "supplier": "砺湖消声有限公司",
+   "status": "mass",
+   "certification": "CERT-E1041",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1000,
+   "shared_equipment": [],
+   "lead_time_days": 34,
+   "unit_price": 233.36,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1042",
+   "model_code": "F250",
+   "part_code": "P33",
+   "supplier": "沣鸣热处理厂",
+   "status": "mass",
+   "certification": "CERT-E1042",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1002,
+   "shared_equipment": [],
+   "lead_time_days": 40,
+   "unit_price": 98.72,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1043",
+   "model_code": "F250",
+   "part_code": "P34",
+   "supplier": "璟湖橡塑有限公司",
+   "status": "mass",
+   "certification": "CERT-E1043",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 970,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 260.2,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1044",
+   "model_code": "F250",
+   "part_code": "P40",
+   "supplier": "璧波塑件有限公司",
+   "status": "mass",
+   "certification": "CERT-E1044",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 922,
+   "shared_equipment": [],
+   "lead_time_days": 31,
+   "unit_price": 191.47,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1045",
+   "model_code": "F250",
+   "part_code": "P41",
+   "supplier": "岭嶂制动有限公司",
+   "status": "mass",
+   "certification": "CERT-E1045",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 964,
+   "shared_equipment": [],
+   "lead_time_days": 15,
+   "unit_price": 44.73,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1046",
+   "model_code": "F250",
+   "part_code": "P42",
+   "supplier": "岷江密封有限公司",
+   "status": "mass",
+   "certification": "CERT-E1046",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 994,
+   "shared_equipment": [],
+   "lead_time_days": 43,
+   "unit_price": 278.2,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1047",
+   "model_code": "F250",
+   "part_code": "P42",
+   "supplier": "岫石平叉股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1047",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 914,
+   "shared_equipment": [],
+   "lead_time_days": 22,
+   "unit_price": 54.61,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1048",
+   "model_code": "E3000",
+   "part_code": "P06",
+   "supplier": "湛河油封有限公司",
+   "status": "mass",
+   "certification": "CERT-E1048",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 173,
+   "shared_equipment": [],
+   "lead_time_days": 18,
+   "unit_price": 252.57,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1049",
+   "model_code": "E3000",
+   "part_code": "P06",
+   "supplier": "沅江链轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1049",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 521,
+   "shared_equipment": [],
+   "lead_time_days": 36,
+   "unit_price": null,
+   "price_valid_until": null,
+   "online_confirmed": true
+  },
+  {
+   "id": "E1050",
+   "model_code": "E3000",
+   "part_code": "P15",
+   "supplier": "磐和轮胎有限公司",
+   "status": "mass",
+   "certification": "CERT-E1050",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1161,
+   "shared_equipment": [],
+   "lead_time_days": 60,
+   "unit_price": 116.33,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1051",
+   "model_code": "E3000",
+   "part_code": "P15",
+   "supplier": "沅头电机有限公司",
+   "status": "mass",
+   "certification": "CERT-E1051",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1309,
+   "shared_equipment": [],
+   "lead_time_days": 21,
+   "unit_price": 25.46,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1052",
+   "model_code": "E3000",
+   "part_code": "P16",
+   "supplier": "苍渚传感有限公司",
+   "status": "mass",
+   "certification": "CERT-E1052",
+   "cert_valid_from": "2026-11-01",
+   "monthly_capacity": 513,
+   "shared_equipment": [],
+   "lead_time_days": 59,
+   "unit_price": 158.19,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1053",
+   "model_code": "E3000",
+   "part_code": "P17",
+   "supplier": "恒霖平叉有限公司",
+   "status": "mass",
+   "certification": "CERT-E1053",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 101,
+   "shared_equipment": [],
+   "lead_time_days": 35,
+   "unit_price": 122.12,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1054",
+   "model_code": "E3000",
+   "part_code": "P18",
+   "supplier": "骏源平叉有限公司",
+   "status": "trial",
+   "certification": "CERT-E1054",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1080,
+   "shared_equipment": [],
+   "lead_time_days": 43,
+   "unit_price": 109.57,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1055",
+   "model_code": "E3000",
+   "part_code": "P18",
+   "supplier": "潼泽电池有限公司",
+   "status": "mass",
+   "certification": "CERT-E1055",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 452,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 186.6,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": false
+  },
+  {
+   "id": "E1056",
+   "model_code": "E3000",
+   "part_code": "P20",
+   "supplier": "岫盛电机有限公司",
+   "status": "trial",
+   "certification": null,
+   "cert_valid_from": null,
+   "monthly_capacity": 663,
+   "shared_equipment": [],
+   "lead_time_days": 57,
+   "unit_price": 181.37,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1057",
+   "model_code": "E3000",
+   "part_code": "P20",
+   "supplier": "砥湖机加有限公司",
+   "status": "mass",
+   "certification": "CERT-E1057",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 187,
+   "shared_equipment": [],
+   "lead_time_days": 59,
+   "unit_price": 71.32,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1058",
+   "model_code": "E3000",
+   "part_code": "P21",
+   "supplier": "潼东货架有限公司",
+   "status": "mass",
+   "certification": "CERT-E1058",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 483,
+   "shared_equipment": [],
+   "lead_time_days": 24,
+   "unit_price": 53.86,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1059",
+   "model_code": "E3000",
+   "part_code": "P23",
+   "supplier": "瑞头紧固有限公司",
+   "status": "mass",
+   "certification": "CERT-E1059",
+   "cert_valid_from": "2026-12-01",
+   "monthly_capacity": 377,
+   "shared_equipment": [],
+   "lead_time_days": 52,
+   "unit_price": 263.6,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1060",
+   "model_code": "E3000",
+   "part_code": "P24",
+   "supplier": "恒川线缆有限公司",
+   "status": "mass",
+   "certification": "CERT-E1060",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 280,
+   "shared_equipment": [],
+   "lead_time_days": 36,
+   "unit_price": 94.67,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1061",
+   "model_code": "E3000",
+   "part_code": "P24",
+   "supplier": "嶂平轮胎有限公司",
+   "status": "mass",
+   "certification": "CERT-E1061",
+   "cert_valid_from": "2026-11-01",
+   "monthly_capacity": 1446,
+   "shared_equipment": [
+    "EQ-PLATE共享电镀线"
+   ],
+   "lead_time_days": 42,
+   "unit_price": 190.03,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1062",
+   "model_code": "E3000",
+   "part_code": "P25",
+   "supplier": "淬波凸轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1062",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 364,
+   "shared_equipment": [],
+   "lead_time_days": 28,
+   "unit_price": 269.33,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1063",
+   "model_code": "E3000",
+   "part_code": "P26",
+   "supplier": "昱霖电机有限公司",
+   "status": "trial",
+   "certification": "CERT-E1063",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 386,
+   "shared_equipment": [],
+   "lead_time_days": 38,
+   "unit_price": 90.22,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1064",
+   "model_code": "E3000",
+   "part_code": "P26",
+   "supplier": "川湖镜片有限公司",
+   "status": "mass",
+   "certification": "CERT-E1064",
+   "cert_valid_from": "2026-11-01",
+   "monthly_capacity": 902,
+   "shared_equipment": [
+    "EQ-PLATE共享电镀线"
+   ],
+   "lead_time_days": 47,
+   "unit_price": 112.67,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1065",
+   "model_code": "E3000",
+   "part_code": "P27",
+   "supplier": "鑫山精密有限公司",
+   "status": "trial",
+   "certification": "CERT-E1065",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 866,
+   "shared_equipment": [],
+   "lead_time_days": 17,
+   "unit_price": 149.41,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1066",
+   "model_code": "E3000",
+   "part_code": "P28",
+   "supplier": "梧泽坐垫厂",
+   "status": "mass",
+   "certification": "CERT-E1066",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 217,
+   "shared_equipment": [
+    "EQ-PLATE共享电镀线"
+   ],
+   "lead_time_days": 25,
+   "unit_price": 261.63,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1067",
+   "model_code": "E3000",
+   "part_code": "P28",
+   "supplier": "嶂凤轮毂厂",
+   "status": "mass",
+   "certification": "CERT-E1067",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 393,
+   "shared_equipment": [],
+   "lead_time_days": 31,
+   "unit_price": 61.46,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": false
+  },
+  {
+   "id": "E1068",
+   "model_code": "E3000",
+   "part_code": "P29",
+   "supplier": "璟川整流有限公司",
+   "status": "mass",
+   "certification": "CERT-E1068",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1467,
+   "shared_equipment": [
+    "EQ-PLATE共享电镀线"
+   ],
+   "lead_time_days": 36,
+   "unit_price": 101.56,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1069",
+   "model_code": "E3000",
+   "part_code": "P29",
+   "supplier": "苍石制动有限公司",
+   "status": "mass",
+   "certification": "CERT-E1069",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1230,
+   "shared_equipment": [],
+   "lead_time_days": 29,
+   "unit_price": 134.97,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": false
+  },
+  {
+   "id": "E1070",
+   "model_code": "E3000",
+   "part_code": "P30",
+   "supplier": "磐霖制动有限公司",
+   "status": "mass",
+   "certification": "CERT-E1070",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 213,
+   "shared_equipment": [],
+   "lead_time_days": 50,
+   "unit_price": 298.8,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1071",
+   "model_code": "E3000",
+   "part_code": "P33",
+   "supplier": "昱云齿轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1071",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1469,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 150.78,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1072",
+   "model_code": "E3000",
+   "part_code": "P33",
+   "supplier": "漾嶂传感有限公司",
+   "status": "trial",
+   "certification": "CERT-E1072",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1148,
+   "shared_equipment": [],
+   "lead_time_days": 18,
+   "unit_price": 226.37,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1073",
+   "model_code": "E3000",
+   "part_code": "P33",
+   "supplier": "苍凤油箱有限公司",
+   "status": "mass",
+   "certification": "CERT-E1073",
+   "cert_valid_from": "2026-10-01",
+   "monthly_capacity": 1207,
+   "shared_equipment": [],
+   "lead_time_days": 45,
+   "unit_price": 133.25,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1074",
+   "model_code": "E3000",
+   "part_code": "P36",
+   "supplier": "浒鸣轴承有限公司",
+   "status": "mass",
+   "certification": "CERT-E1074",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 851,
+   "shared_equipment": [],
+   "lead_time_days": 16,
+   "unit_price": 254.85,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": false
+  },
+  {
+   "id": "E1075",
+   "model_code": "E3000",
+   "part_code": "P37",
+   "supplier": "昱河塑件有限公司",
+   "status": "mass",
+   "certification": "CERT-E1075",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1315,
+   "shared_equipment": [],
+   "lead_time_days": 14,
+   "unit_price": 169.82,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": false
+  },
+  {
+   "id": "E1076",
+   "model_code": "E3000",
+   "part_code": "P41",
+   "supplier": "洲驰离合厂",
+   "status": "mass",
+   "certification": "CERT-E1076",
+   "cert_valid_from": "2026-10-01",
+   "monthly_capacity": 567,
+   "shared_equipment": [],
+   "lead_time_days": 50,
+   "unit_price": 181.92,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": false
+  },
+  {
+   "id": "E1077",
+   "model_code": "E3000",
+   "part_code": "P42",
+   "supplier": "鹤兰货架股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1077",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1350,
+   "shared_equipment": [],
+   "lead_time_days": 29,
+   "unit_price": 131.82,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1078",
+   "model_code": "E5000",
+   "part_code": "P06",
+   "supplier": "潼嶂活塞有限公司",
+   "status": "mass",
+   "certification": "CERT-E1078",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 634,
+   "shared_equipment": [],
+   "lead_time_days": 38,
+   "unit_price": 229.15,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1079",
+   "model_code": "E5000",
+   "part_code": "P13",
+   "supplier": "锐和机加有限公司",
+   "status": "mass",
+   "certification": "CERT-E1079",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 606,
+   "shared_equipment": [],
+   "lead_time_days": 14,
+   "unit_price": 148.39,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1080",
+   "model_code": "E5000",
+   "part_code": "P16",
+   "supplier": "汀嶂线缆有限公司",
+   "status": "mass",
+   "certification": "CERT-E1080",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 645,
+   "shared_equipment": [],
+   "lead_time_days": 8,
+   "unit_price": 281.27,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1081",
+   "model_code": "E5000",
+   "part_code": "P16",
+   "supplier": "鑫平橡塑厂",
+   "status": "mass",
+   "certification": "CERT-E1081",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 632,
+   "shared_equipment": [],
+   "lead_time_days": 36,
+   "unit_price": 166.91,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1082",
+   "model_code": "E5000",
+   "part_code": "P17",
+   "supplier": "骏波油封有限公司",
+   "status": "mass",
+   "certification": "CERT-E1082",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 599,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 122.36,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1083",
+   "model_code": "E5000",
+   "part_code": "P18",
+   "supplier": "隆泽传感有限公司",
+   "status": "mass",
+   "certification": "CERT-E1083",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 685,
+   "shared_equipment": [],
+   "lead_time_days": 16,
+   "unit_price": 222.96,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1084",
+   "model_code": "E5000",
+   "part_code": "P20",
+   "supplier": "骏力平叉有限公司",
+   "status": "mass",
+   "certification": "CERT-E1084",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 648,
+   "shared_equipment": [],
+   "lead_time_days": 29,
+   "unit_price": 181.93,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1085",
+   "model_code": "E5000",
+   "part_code": "P21",
+   "supplier": "砺泽紧固股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1085",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 657,
+   "shared_equipment": [],
+   "lead_time_days": 36,
+   "unit_price": 10.72,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1086",
+   "model_code": "E5000",
+   "part_code": "P25",
+   "supplier": "汀溪变速有限公司",
+   "status": "mass",
+   "certification": "CERT-E1086",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 597,
+   "shared_equipment": [],
+   "lead_time_days": 20,
+   "unit_price": 244.88,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1087",
+   "model_code": "E5000",
+   "part_code": "P26",
+   "supplier": "泰阳弹簧有限公司",
+   "status": "mass",
+   "certification": "CERT-E1087",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 644,
+   "shared_equipment": [],
+   "lead_time_days": 20,
+   "unit_price": 200.4,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1088",
+   "model_code": "E5000",
+   "part_code": "P28",
+   "supplier": "泰波凸轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1088",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 633,
+   "shared_equipment": [],
+   "lead_time_days": 25,
+   "unit_price": 232.52,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1089",
+   "model_code": "E5000",
+   "part_code": "P30",
+   "supplier": "澄江车架有限公司",
+   "status": "mass",
+   "certification": "CERT-E1089",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 682,
+   "shared_equipment": [],
+   "lead_time_days": 36,
+   "unit_price": 154.91,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1090",
+   "model_code": "E5000",
+   "part_code": "P34",
+   "supplier": "漾石五金有限公司",
+   "status": "mass",
+   "certification": "CERT-E1090",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 588,
+   "shared_equipment": [],
+   "lead_time_days": 28,
+   "unit_price": 100.74,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1091",
+   "model_code": "E5000",
+   "part_code": "P35",
+   "supplier": "岚东机加有限公司",
+   "status": "mass",
+   "certification": "CERT-E1091",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1204,
+   "shared_equipment": [],
+   "lead_time_days": 41,
+   "unit_price": 9.22,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1092",
+   "model_code": "E5000",
+   "part_code": "P36",
+   "supplier": "浒鸣凸轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1092",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1229,
+   "shared_equipment": [],
+   "lead_time_days": 24,
+   "unit_price": 271.0,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1093",
+   "model_code": "E5000",
+   "part_code": "P36",
+   "supplier": "鑫渚充电有限公司",
+   "status": "mass",
+   "certification": "CERT-E1093",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1179,
+   "shared_equipment": [],
+   "lead_time_days": 42,
+   "unit_price": 229.59,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1094",
+   "model_code": "E5000",
+   "part_code": "P37",
+   "supplier": "鹤盛密封有限公司",
+   "status": "mass",
+   "certification": "CERT-E1094",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 661,
+   "shared_equipment": [],
+   "lead_time_days": 17,
+   "unit_price": 6.4,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1095",
+   "model_code": "E5000",
+   "part_code": "P38",
+   "supplier": "沣阳线缆有限公司",
+   "status": "mass",
+   "certification": "CERT-E1095",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 594,
+   "shared_equipment": [],
+   "lead_time_days": 19,
+   "unit_price": 62.52,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1096",
+   "model_code": "E5000",
+   "part_code": "P41",
+   "supplier": "恒盛制动厂",
+   "status": "mass",
+   "certification": "CERT-E1096",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 601,
+   "shared_equipment": [],
+   "lead_time_days": 25,
+   "unit_price": 235.01,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1097",
+   "model_code": "E5000",
+   "part_code": "P42",
+   "supplier": "昱北轴承有限公司",
+   "status": "mass",
+   "certification": "CERT-E1097",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 593,
+   "shared_equipment": [],
+   "lead_time_days": 24,
+   "unit_price": 240.77,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1098",
+   "model_code": "E5000",
+   "part_code": "P42",
+   "supplier": "烽山链轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1098",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 604,
+   "shared_equipment": [],
+   "lead_time_days": 43,
+   "unit_price": 277.85,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1099",
+   "model_code": "X250",
+   "part_code": "P03",
+   "supplier": "璟川脚踏有限公司",
+   "status": "mass",
+   "certification": "CERT-E1099",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 577,
+   "shared_equipment": [],
+   "lead_time_days": 20,
+   "unit_price": 159.25,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1100",
+   "model_code": "X250",
+   "part_code": "P03",
+   "supplier": "昱鸣曲轴有限公司",
+   "status": "mass",
+   "certification": "CERT-E1100",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 531,
+   "shared_equipment": [],
+   "lead_time_days": 42,
+   "unit_price": 59.41,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1101",
+   "model_code": "X250",
+   "part_code": "P04",
+   "supplier": "鑫东货架有限公司",
+   "status": "mass",
+   "certification": "CERT-E1101",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 577,
+   "shared_equipment": [],
+   "lead_time_days": 43,
+   "unit_price": 181.49,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1102",
+   "model_code": "X250",
+   "part_code": "P05",
+   "supplier": "嶂风减震有限公司",
+   "status": "mass",
+   "certification": "CERT-E1102",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 618,
+   "shared_equipment": [],
+   "lead_time_days": 28,
+   "unit_price": 144.7,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1103",
+   "model_code": "X250",
+   "part_code": "P05",
+   "supplier": "漾凤电喷有限公司",
+   "status": "mass",
+   "certification": "CERT-E1103",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 604,
+   "shared_equipment": [],
+   "lead_time_days": 7,
+   "unit_price": 243.72,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1104",
+   "model_code": "X250",
+   "part_code": "P09",
+   "supplier": "澄东车架有限公司",
+   "status": "mass",
+   "certification": "CERT-E1104",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 596,
+   "shared_equipment": [],
+   "lead_time_days": 16,
+   "unit_price": 35.25,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1105",
+   "model_code": "X250",
+   "part_code": "P09",
+   "supplier": "洲平整流厂",
+   "status": "mass",
+   "certification": "CERT-E1105",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 601,
+   "shared_equipment": [],
+   "lead_time_days": 14,
+   "unit_price": 230.18,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1106",
+   "model_code": "X250",
+   "part_code": "P10",
+   "supplier": "晟风整流有限公司",
+   "status": "mass",
+   "certification": "CERT-E1106",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 563,
+   "shared_equipment": [],
+   "lead_time_days": 44,
+   "unit_price": 275.56,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1107",
+   "model_code": "X250",
+   "part_code": "P17",
+   "supplier": "漾石充电股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1107",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 547,
+   "shared_equipment": [],
+   "lead_time_days": 17,
+   "unit_price": 110.98,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1108",
+   "model_code": "X250",
+   "part_code": "P18",
+   "supplier": "湛川热处理有限公司",
+   "status": "mass",
+   "certification": "CERT-E1108",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 564,
+   "shared_equipment": [],
+   "lead_time_days": 20,
+   "unit_price": 180.93,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1109",
+   "model_code": "X250",
+   "part_code": "P21",
+   "supplier": "砥泽整流有限公司",
+   "status": "mass",
+   "certification": "CERT-E1109",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 599,
+   "shared_equipment": [],
+   "lead_time_days": 18,
+   "unit_price": 28.48,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1110",
+   "model_code": "X250",
+   "part_code": "P22",
+   "supplier": "磐河化油器有限公司",
+   "status": "mass",
+   "certification": "CERT-E1110",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 554,
+   "shared_equipment": [],
+   "lead_time_days": 18,
+   "unit_price": 288.51,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1111",
+   "model_code": "X250",
+   "part_code": "P24",
+   "supplier": "晟兰电机有限公司",
+   "status": "mass",
+   "certification": "CERT-E1111",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 550,
+   "shared_equipment": [],
+   "lead_time_days": 27,
+   "unit_price": 85.85,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1112",
+   "model_code": "X250",
+   "part_code": "P24",
+   "supplier": "湛石车架厂",
+   "status": "mass",
+   "certification": "CERT-E1112",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 559,
+   "shared_equipment": [],
+   "lead_time_days": 43,
+   "unit_price": 283.14,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1113",
+   "model_code": "X250",
+   "part_code": "P26",
+   "supplier": "磐和传感有限公司",
+   "status": "mass",
+   "certification": "CERT-E1113",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 539,
+   "shared_equipment": [],
+   "lead_time_days": 7,
+   "unit_price": 219.33,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1114",
+   "model_code": "X250",
+   "part_code": "P27",
+   "supplier": "璧岳车架有限公司",
+   "status": "mass",
+   "certification": "CERT-E1114",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 591,
+   "shared_equipment": [],
+   "lead_time_days": 16,
+   "unit_price": 101.87,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1115",
+   "model_code": "X250",
+   "part_code": "P28",
+   "supplier": "汀盛电机有限公司",
+   "status": "mass",
+   "certification": "CERT-E1115",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 595,
+   "shared_equipment": [],
+   "lead_time_days": 43,
+   "unit_price": 271.92,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1116",
+   "model_code": "X250",
+   "part_code": "P29",
+   "supplier": "朔东仪表有限公司",
+   "status": "mass",
+   "certification": "CERT-E1116",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 554,
+   "shared_equipment": [],
+   "lead_time_days": 42,
+   "unit_price": 33.95,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1117",
+   "model_code": "X250",
+   "part_code": "P29",
+   "supplier": "苍锋灯具有限公司",
+   "status": "mass",
+   "certification": "CERT-E1117",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 551,
+   "shared_equipment": [],
+   "lead_time_days": 10,
+   "unit_price": 160.13,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1118",
+   "model_code": "X250",
+   "part_code": "P31",
+   "supplier": "岱嶂整流有限公司",
+   "status": "mass",
+   "certification": "CERT-E1118",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 523,
+   "shared_equipment": [],
+   "lead_time_days": 10,
+   "unit_price": 7.54,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1119",
+   "model_code": "X250",
+   "part_code": "P33",
+   "supplier": "昱霖轮毂股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1119",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 548,
+   "shared_equipment": [],
+   "lead_time_days": 10,
+   "unit_price": 25.56,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1120",
+   "model_code": "X250",
+   "part_code": "P34",
+   "supplier": "沅山消声有限公司",
+   "status": "mass",
+   "certification": "CERT-E1120",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 594,
+   "shared_equipment": [],
+   "lead_time_days": 27,
+   "unit_price": 173.22,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1121",
+   "model_code": "X250",
+   "part_code": "P35",
+   "supplier": "澄泽轮毂有限公司",
+   "status": "mass",
+   "certification": "CERT-E1121",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1099,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 85.05,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1122",
+   "model_code": "X250",
+   "part_code": "P36",
+   "supplier": "沅江连杆股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1122",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1134,
+   "shared_equipment": [],
+   "lead_time_days": 7,
+   "unit_price": 133.44,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1123",
+   "model_code": "X250",
+   "part_code": "P36",
+   "supplier": "昱河电机有限公司",
+   "status": "mass",
+   "certification": "CERT-E1123",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1058,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 243.43,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1124",
+   "model_code": "X250",
+   "part_code": "P38",
+   "supplier": "鑫溪连杆有限公司",
+   "status": "mass",
+   "certification": "CERT-E1124",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 525,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 174.39,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1125",
+   "model_code": "X250",
+   "part_code": "P40",
+   "supplier": "烽和电喷有限公司",
+   "status": "mass",
+   "certification": "CERT-E1125",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 620,
+   "shared_equipment": [],
+   "lead_time_days": 10,
+   "unit_price": 280.88,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1126",
+   "model_code": "X250",
+   "part_code": "P41",
+   "supplier": "鹤北灯具有限公司",
+   "status": "mass",
+   "certification": "CERT-E1126",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 584,
+   "shared_equipment": [],
+   "lead_time_days": 33,
+   "unit_price": 255.28,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1127",
+   "model_code": "X250",
+   "part_code": "P41",
+   "supplier": "砺山油封有限公司",
+   "status": "mass",
+   "certification": "CERT-E1127",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 552,
+   "shared_equipment": [],
+   "lead_time_days": 21,
+   "unit_price": 26.25,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1128",
+   "model_code": "X250",
+   "part_code": "P43",
+   "supplier": "璧兰铸造有限公司",
+   "status": "mass",
+   "certification": "CERT-E1128",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 578,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 168.45,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1129",
+   "model_code": "X450",
+   "part_code": "P02",
+   "supplier": "砺石曲轴有限公司",
+   "status": "mass",
+   "certification": "CERT-E1129",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 705,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 158.92,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1130",
+   "model_code": "X450",
+   "part_code": "P03",
+   "supplier": "恒鸣仪表有限公司",
+   "status": "mass",
+   "certification": "CERT-E1130",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 722,
+   "shared_equipment": [],
+   "lead_time_days": 9,
+   "unit_price": 118.19,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1131",
+   "model_code": "X450",
+   "part_code": "P04",
+   "supplier": "汀鸣车架有限公司",
+   "status": "mass",
+   "certification": "CERT-E1131",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 712,
+   "shared_equipment": [],
+   "lead_time_days": 30,
+   "unit_price": 51.45,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1132",
+   "model_code": "X450",
+   "part_code": "P05",
+   "supplier": "砥阳传感厂",
+   "status": "mass",
+   "certification": "CERT-E1132",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 748,
+   "shared_equipment": [],
+   "lead_time_days": 45,
+   "unit_price": 26.27,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1133",
+   "model_code": "X450",
+   "part_code": "P07",
+   "supplier": "沣北电控有限公司",
+   "status": "mass",
+   "certification": "CERT-E1133",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 686,
+   "shared_equipment": [],
+   "lead_time_days": 21,
+   "unit_price": 188.94,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1134",
+   "model_code": "X450",
+   "part_code": "P08",
+   "supplier": "岱川链条厂",
+   "status": "mass",
+   "certification": "CERT-E1134",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 669,
+   "shared_equipment": [],
+   "lead_time_days": 38,
+   "unit_price": 281.09,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1135",
+   "model_code": "X450",
+   "part_code": "P09",
+   "supplier": "梧岳油箱有限公司",
+   "status": "mass",
+   "certification": "CERT-E1135",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 731,
+   "shared_equipment": [],
+   "lead_time_days": 10,
+   "unit_price": 262.69,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1136",
+   "model_code": "X450",
+   "part_code": "P11",
+   "supplier": "嶂兰离合有限公司",
+   "status": "mass",
+   "certification": "CERT-E1136",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 704,
+   "shared_equipment": [],
+   "lead_time_days": 20,
+   "unit_price": 28.05,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1137",
+   "model_code": "X450",
+   "part_code": "P12",
+   "supplier": "恒东齿轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1137",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 721,
+   "shared_equipment": [],
+   "lead_time_days": 22,
+   "unit_price": 213.8,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1138",
+   "model_code": "X450",
+   "part_code": "P17",
+   "supplier": "泰霖凸轮股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1138",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 671,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 42.68,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1139",
+   "model_code": "X450",
+   "part_code": "P18",
+   "supplier": "瑞岳轮毂有限公司",
+   "status": "mass",
+   "certification": "CERT-E1139",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 739,
+   "shared_equipment": [],
+   "lead_time_days": 29,
+   "unit_price": 213.12,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1140",
+   "model_code": "X450",
+   "part_code": "P21",
+   "supplier": "汀嶂锻压有限公司",
+   "status": "mass",
+   "certification": "CERT-E1140",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 742,
+   "shared_equipment": [],
+   "lead_time_days": 15,
+   "unit_price": 258.77,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1141",
+   "model_code": "X450",
+   "part_code": "P22",
+   "supplier": "洄平机加股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1141",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 723,
+   "shared_equipment": [],
+   "lead_time_days": 36,
+   "unit_price": 111.85,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1142",
+   "model_code": "X450",
+   "part_code": "P24",
+   "supplier": "云湖化油器有限公司",
+   "status": "mass",
+   "certification": "CERT-E1142",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 737,
+   "shared_equipment": [],
+   "lead_time_days": 27,
+   "unit_price": 105.45,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1143",
+   "model_code": "X450",
+   "part_code": "P28",
+   "supplier": "岷云电镀有限公司",
+   "status": "mass",
+   "certification": "CERT-E1143",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 656,
+   "shared_equipment": [],
+   "lead_time_days": 9,
+   "unit_price": 253.62,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1144",
+   "model_code": "X450",
+   "part_code": "P28",
+   "supplier": "嶂江轮毂有限公司",
+   "status": "mass",
+   "certification": "CERT-E1144",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 701,
+   "shared_equipment": [],
+   "lead_time_days": 25,
+   "unit_price": 195.2,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1145",
+   "model_code": "X450",
+   "part_code": "P29",
+   "supplier": "岚平轮胎厂",
+   "status": "mass",
+   "certification": "CERT-E1145",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 721,
+   "shared_equipment": [],
+   "lead_time_days": 42,
+   "unit_price": 221.43,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1146",
+   "model_code": "X450",
+   "part_code": "P31",
+   "supplier": "矶平铸造有限公司",
+   "status": "mass",
+   "certification": "CERT-E1146",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 712,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 211.31,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1147",
+   "model_code": "X450",
+   "part_code": "P33",
+   "supplier": "岚北车架有限公司",
+   "status": "mass",
+   "certification": "CERT-E1147",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 741,
+   "shared_equipment": [],
+   "lead_time_days": 30,
+   "unit_price": 159.62,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1148",
+   "model_code": "X450",
+   "part_code": "P35",
+   "supplier": "鹤盛电池有限公司",
+   "status": "mass",
+   "certification": "CERT-E1148",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1344,
+   "shared_equipment": [],
+   "lead_time_days": 33,
+   "unit_price": 207.93,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1149",
+   "model_code": "X450",
+   "part_code": "P36",
+   "supplier": "岭兰消声有限公司",
+   "status": "mass",
+   "certification": "CERT-E1149",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 1376,
+   "shared_equipment": [],
+   "lead_time_days": 9,
+   "unit_price": 152.9,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1150",
+   "model_code": "X450",
+   "part_code": "P37",
+   "supplier": "湛嶂点火有限公司",
+   "status": "mass",
+   "certification": "CERT-E1150",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 689,
+   "shared_equipment": [],
+   "lead_time_days": 13,
+   "unit_price": 154.74,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1151",
+   "model_code": "X450",
+   "part_code": "P40",
+   "supplier": "潼锋轴承有限公司",
+   "status": "mass",
+   "certification": "CERT-E1151",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 735,
+   "shared_equipment": [],
+   "lead_time_days": 12,
+   "unit_price": 110.61,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1152",
+   "model_code": "X450",
+   "part_code": "P42",
+   "supplier": "朔驰电镀股份有限公司",
+   "status": "mass",
+   "certification": "CERT-E1152",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 692,
+   "shared_equipment": [],
+   "lead_time_days": 17,
+   "unit_price": 252.82,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1153",
+   "model_code": "E3000",
+   "part_code": "P26",
+   "supplier": "淬嶂机加有限公司",
+   "status": "mass",
+   "certification": "CERT-E1153",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 784,
+   "shared_equipment": [],
+   "lead_time_days": 25,
+   "unit_price": 242.22,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1154",
+   "model_code": "E3000",
+   "part_code": "P37",
+   "supplier": "岱渚热处理有限公司",
+   "status": "mass",
+   "certification": "CERT-E1154",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 819,
+   "shared_equipment": [],
+   "lead_time_days": 23,
+   "unit_price": 231.77,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  },
+  {
+   "id": "E1155",
+   "model_code": "E3000",
+   "part_code": "P06",
+   "supplier": "隆鸣凸轮有限公司",
+   "status": "mass",
+   "certification": "CERT-E1155",
+   "cert_valid_from": "2026-01-01",
+   "monthly_capacity": 797,
+   "shared_equipment": [],
+   "lead_time_days": 19,
+   "unit_price": 64.63,
+   "price_valid_until": "2026-12-31",
+   "online_confirmed": true
+  }
+ ],
+ "candidates": [
+  {
+   "edge_id": "E-F250-GEAR-1",
+   "alternatives": [
+    {
+     "edge_id": "E-F250-GEAR-2",
+     "switch_days": 10
+    }
+   ]
+  },
+  {
+   "edge_id": "E1064",
+   "alternatives": [
+    {
+     "edge_id": "E1153",
+     "switch_days": 9
+    }
+   ]
+  },
+  {
+   "edge_id": "E1075",
+   "alternatives": [
+    {
+     "edge_id": "E1154",
+     "switch_days": 18
+    }
+   ]
+  },
+  {
+   "edge_id": "E1048",
+   "alternatives": [
+    {
+     "edge_id": "E1155",
+     "switch_days": 17
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "EV-STOP-F250",
+   "type": "supply_stop",
+   "edge_id": "E-F250-GEAR-1",
+   "effective_from": "2026-09-20"
+  },
+  {
+   "id": "EV-STOP-X450",
+   "type": "supply_stop",
+   "edge_id": "E-X450-GEAR-1",
+   "effective_from": "2026-09-20"
+  },
+  {
+   "id": "EV-CONV-X450",
+   "type": "trial_to_mass",
+   "edge_id": "E-X450-GEAR-2",
+   "effective_from": "2026-10-15"
+  },
+  {
+   "id": "EV-HOLD-X250-1",
+   "type": "quality_hold",
+   "edge_id": "E-X250-CALIPER-1",
+   "effective_from": "2026-09-10",
+   "effective_to": "2026-09-25"
+  },
+  {
+   "id": "EV-HOLD-X250-2",
+   "type": "quality_hold",
+   "edge_id": "E-X250-CALIPER-2",
+   "effective_from": "2026-09-20",
+   "effective_to": "2026-10-05"
+  },
+  {
+   "id": "EV-DOWN-HEAT",
+   "type": "equipment_downtime",
+   "equipment": "EQ-HEAT共享热处理炉",
+   "effective_from": "2026-10-01",
+   "effective_to": "2026-10-08"
+  },
+  {
+   "id": "EV-RND-HOLD",
+   "type": "quality_hold",
+   "edge_id": "E1076",
+   "effective_from": "2026-09-01",
+   "effective_to": "2026-09-30"
+  },
+  {
+   "id": "EV-RND-STOP",
+   "type": "supply_stop",
+   "edge_id": "E1055",
+   "effective_from": "2026-09-15"
+  },
+  {
+   "id": "EV-RND-CONV",
+   "type": "trial_to_mass",
+   "edge_id": "E1054",
+   "effective_from": "2026-09-05"
+  },
+  {
+   "id": "EV-RND-PRICE",
+   "type": "price_expired",
+   "edge_id": "E1072",
+   "effective_from": "2026-09-10"
+  },
+  {
+   "id": "EV-DOWN-PLATE",
+   "type": "equipment_downtime",
+   "equipment": "EQ-PLATE共享电镀线",
+   "effective_from": "2026-11-01",
+   "effective_to": "2026-11-05"
+  }
+ ],
+ "measures": [
+  {
+   "id": "M1",
+   "company": "潼溪齿轮有限公司",
+   "name": "本地齿轮量产扶持",
+   "effective_from": "2026-10-15"
+  }
+ ]
+}

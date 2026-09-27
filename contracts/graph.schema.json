@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "摩托产业链韧性图谱",
+  "type": "object",
+  "required": [
+    "domain",
+    "version",
+    "sample_id",
+    "published_local_ratio",
+    "raw_directory",
+    "model_versions",
+    "parts",
+    "edges"
+  ],
+  "properties": {
+    "domain": { "const": "motorcycle-supply-resilience" },
+    "version": { "type": "integer", "minimum": 1 },
+    "sample_id": { "type": "string", "minLength": 1 },
+    "note": { "type": "string" },
+    "published_local_ratio": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "园区公布的本地配套率；图谱另按认证产能核验真实值"
+    },
+    "raw_directory": {
+      "type": "array",
+      "description": "园区收集的原始名录，同一企业可能出现多条（全称/简称/旧称）",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "kind", "local"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["oem", "parts"] },
+          "local": { "type": "boolean" },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "same_as": { "type": "string", "description": "指向另一条记录，显式声明同一主体" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "model_versions": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["code", "name", "kind", "oem", "open_orders"],
+        "properties": {
+          "code": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["fuel", "ev", "offroad"] },
+          "oem": { "type": "string", "description": "整车企业名称（归并后主体）" },
+          "open_orders": { "type": "integer", "minimum": 0 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "name"],
+        "properties": {
+          "code": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "units_per_unit": { "type": "integer", "minimum": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "description": "供应边：零部件企业 × 零件 × 车型版本，携带认证/产能/设备/交期/价格",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "model_code", "part_code", "supplier", "status",
+          "certification", "cert_valid_from", "monthly_capacity",
+          "shared_equipment", "lead_time_days", "unit_price",
+          "price_valid_until", "online_confirmed"
+        ],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "model_code": { "type": "string" },
+          "part_code": { "type": "string" },
+          "supplier": { "type": "string" },
+          "status": { "enum": ["trial", "mass"] },
+          "certification": { "type": ["string", "null"] },
+          "cert_valid_from": { "type": ["string", "null"], "format": "date" },
+          "monthly_capacity": { "type": "integer", "minimum": 0 },
+          "shared_equipment": { "type": "array", "items": { "type": "string" } },
+          "lead_time_days": { "type": "integer", "minimum": 0 },
+          "unit_price": { "type": ["number", "null"] },
+          "price_valid_until": { "type": ["string", "null"], "format": "date" },
+          "online_confirmed": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "description": "候选替代：同零件同车型版本的备选供应边，不计入基线产能",
+      "items": {
+        "type": "object",
+        "required": ["edge_id", "alternatives"],
+        "properties": {
+          "edge_id": { "type": "string" },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["edge_id", "switch_days"],
+              "properties": {
+                "edge_id": { "type": "string" },
+                "switch_days": { "type": "integer", "minimum": 0 }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "events": {
+      "type": "array",
+      "description": "按生效时间改变可用性的事件",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "effective_from"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "type": {
+            "enum": ["trial_to_mass", "quality_hold", "price_expired", "equipment_downtime", "supply_stop"]
+          },
+          "edge_id": { "type": "string", "description": "设备检修以外的事件必填" },
+          "equipment": { "type": "string", "description": "设备检修事件必填，作用于共享设备组" },
+          "effective_from": { "type": "string", "format": "date" },
+          "effective_to": {
+            "type": "string",
+            "format": "date",
+            "description": "仅质量暂停与设备检修可有恢复时间"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "measures": {
+      "type": "array",
+      "description": "园区扶持措施，用于对比措施前后交付能力",
+      "items": {
+        "type": "object",
+        "required": ["id", "company", "name", "effective_from"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "company": { "type": "string" },
+          "name": { "type": "string" },
+          "effective_from": { "type": "string", "format": "date" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
