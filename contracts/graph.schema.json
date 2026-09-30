@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "摩托产业链韧性图谱 v2 数据契约",
+  "type": "object",
+  "required": [
+    "domain", "version", "sample_id", "companies", "parts", "variants",
+    "certifications", "commitments", "equipment", "sourcing_links",
+    "events", "orders"
+  ],
+  "properties": {
+    "domain": { "const": "motorcycle-supply-resilience" },
+    "version": { "type": "integer", "minimum": 2 },
+    "sample_id": { "type": "string", "minLength": 1 },
+    "as_of": { "type": "string", "format": "date" },
+    "companies": {
+      "type": "array", "minItems": 350,
+      "items": {
+        "type": "object",
+        "required": ["company_id", "name", "local"],
+        "properties": {
+          "company_id": { "type": "string" },
+          "reg_code": { "type": "string" },
+          "name": { "type": "string", "minLength": 2 },
+          "short_name": { "type": "string" },
+          "local": { "type": "boolean" },
+          "kind": {
+            "type": "string",
+            "enum": ["oem", "supplier", "service", "certifier"]
+          },
+          "aliases": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": true
+      }
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["part_id", "name", "category"],
+        "properties": {
+          "part_id": { "type": "string" },
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "critical": { "type": "boolean" },
+          "parent_id": { "type": ["string", "null"] },
+          "also_parent_of": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": true
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["variant_id", "platform", "model", "version", "oem", "bom"],
+        "properties": {
+          "variant_id": { "type": "string" },
+          "platform": { "type": "string", "enum": ["fuel", "electric", "offroad"] },
+          "model": { "type": "string" },
+          "version": { "type": "string" },
+          "oem": { "type": "string" },
+          "bom": {
+            "type": "object",
+            "patternProperties": { "^.+$": { "type": "integer", "minimum": 1 } },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["cert_id", "company", "part_id", "variant_id", "status", "valid_from"],
+        "properties": {
+          "cert_id": { "type": "string" },
+          "company": { "type": "string" },
+          "part_id": { "type": "string" },
+          "variant_id": { "type": "string" },
+          "status": { "type": "string", "enum": ["trial", "mass", "suspended", "revoked"] },
+          "valid_from": { "type": "string", "format": "date" },
+          "valid_to": { "type": ["string", "null"], "format": "date" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "commitments": {
+      "type": "array",
+      "description": "供应商在线确认的周产能承诺与报价；confirmed=false 为未确认草案。",
+      "items": {
+        "type": "object",
+        "required": ["commitment_id", "company", "part_id", "capacity_per_week", "price", "confirmed", "valid_from"],
+        "properties": {
+          "commitment_id": { "type": "string" },
+          "company": { "type": "string" },
+          "part_id": { "type": "string" },
+          "capacity_per_week": { "type": "integer", "minimum": 0 },
+          "price": { "type": "number", "minimum": 0 },
+          "currency": { "type": "string" },
+          "lead_time_days": { "type": "integer", "minimum": 0 },
+          "confirmed": { "type": "boolean" },
+          "valid_from": { "type": "string", "format": "date" },
+          "valid_to": { "type": ["string", "null"], "format": "date" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "equipment": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["equipment_id", "name"],
+        "properties": {
+          "equipment_id": { "type": "string" },
+          "name": { "type": "string" },
+          "shared_by": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": true
+      }
+    },
+    "sourcing_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["link_id", "part_id", "supplier", "role"],
+        "properties": {
+          "link_id": { "type": "string" },
+          "part_id": { "type": "string" },
+          "supplier": { "type": "string" },
+          "role": { "type": "string", "enum": ["primary", "alternate"] },
+          "cert_ids": { "type": "array", "items": { "type": "string" } },
+          "commitment_ids": { "type": "array", "items": { "type": "string" } },
+          "equipment_ids": { "type": "array", "items": { "type": "string" } },
+          "lead_time_days": { "type": "integer", "minimum": 0 },
+          "candidate_for": { "type": "array", "items": { "type": "string" } },
+          "switch_cost": { "type": "number", "minimum": 0 }
+        },
+        "additionalProperties": true
+      }
+    },
+    "events": {
+      "type": "array",
+      "description": "按生效时间改变可用性：试制转量产/质量暂停/价格失效/设备检修/断供。",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "kind", "effective_from", "target_type", "target_id"],
+        "properties": {
+          "event_id": { "type": "string" },
+          "kind": {
+            "type": "string",
+            "enum": ["ramp", "quality_hold", "price_expiry", "maintenance", "supply_stop"]
+          },
+          "effective_from": { "type": "string", "format": "date" },
+          "effective_to": { "type": ["string", "null"], "format": "date" },
+          "target_type": {
+            "type": "string",
+            "enum": ["certification", "link", "commitment", "equipment", "company"]
+          },
+          "target_id": { "type": "string" },
+          "part_id": { "type": ["string", "null"] },
+          "note": { "type": "string" },
+          "ramp_curve": {
+            "type": "object",
+            "patternProperties": { "^[0-9]+$": { "type": "integer", "minimum": 0 } },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "measures": {
+      "type": "array",
+      "description": "园区扶持措施：扩产/认证加速/设备备份/价格补贴。",
+      "items": {
+        "type": "object",
+        "required": ["measure_id", "kind", "target_type", "target_id", "value", "effective_from"],
+        "properties": {
+          "measure_id": { "type": "string" },
+          "kind": {
+            "type": "string",
+            "enum": ["capacity_grant", "cert_acceleration", "equipment_backup", "price_subsidy"]
+          },
+          "target_type": { "type": "string", "enum": ["link", "certification", "equipment"] },
+          "target_id": { "type": "string" },
+          "value": { "type": "number" },
+          "effective_from": { "type": "string", "format": "date" },
+          "effective_to": { "type": ["string", "null"], "format": "date" },
+          "note": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "orders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["order_id", "variant_id", "quantity", "due_week"],
+        "properties": {
+          "order_id": { "type": "string" },
+          "variant_id": { "type": "string" },
+          "quantity": { "type": "integer", "minimum": 1 },
+          "due_week": { "type": "string", "format": "date" },
+          "customer_segment": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
